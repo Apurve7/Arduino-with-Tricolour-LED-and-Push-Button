@@ -8,9 +8,9 @@ An Arduino board (e.g., Arduino Uno)
 
 1 x Common Cathode Tricolor LED
 
-3 x 220Ω Resistors (for limiting current to the LED pins)
+3 x 1000Ω Resistors (for limiting current to the LED pins)
 
-1 x 10kΩ Resistor (as a pull-down resistor for the push button)
+1 x 100Ω Resistor (as a pull-down resistor for the push button)
 
 1 x Push Button
 
@@ -31,11 +31,11 @@ Tricolor LED:
 
 Connect the longest pin (cathode) of the LED to a GND pin on the Arduino.
 
-Connect the Red pin of the LED to one end of a 220Ω resistor. Connect the other end of the resistor to Digital Pin 10.
+Connect the Red pin of the LED to one end of a 100Ω resistor. Connect the other end of the resistor to Digital Pin 10.
 
-Connect the Green pin of the LED to one end of a 220Ω resistor. Connect the other end of the resistor to Digital Pin 11.
+Connect the Green pin of the LED to one end of a 100Ω resistor. Connect the other end of the resistor to Digital Pin 11.
 
-Connect the Blue pin of the LED to one end of a 220Ω resistor. Connect the other end of the resistor to Digital Pin 12.
+Connect the Blue pin of the LED to one end of a 100Ω resistor. Connect the other end of the resistor to Digital Pin 12.
 
 Push Button:
 
@@ -43,7 +43,7 @@ Connect one leg of the push button to the 5V pin on the Arduino.
 
 Connect the opposite leg to Digital Pin 4 on the Arduino.
 
-Connect that same leg (the one connected to Pin 4) to one end of the 10kΩ resistor. Connect the other end of the resistor to GND.
+Connect that same leg (the one connected to Pin 4) to one end of the 100Ω resistor. Connect the other end of the resistor to GND.
 
 3. Understand and Upload the Program
 Your code makes the blinking sequence dependent on holding the button down.
