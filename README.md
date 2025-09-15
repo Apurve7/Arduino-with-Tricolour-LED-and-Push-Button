@@ -70,3 +70,5 @@ Click the Upload button to send the program to your Arduino.
 Press the push button. The LED should begin blinking cycle of blue, green, and red with each press
 
 Release the button. The blinking should stop immediately.
+
+
