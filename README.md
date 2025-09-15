@@ -10,6 +10,6 @@ WorkFlow:
 Understand the connection circuit details
 Connect a tricolor LED to Arduino board
 Write a program to blink tricolor LED
-           Write the code for the Void loop function
+Write the code for the Void loop function
 Compile and upload the program
 Use Pushbutton to control the blinking
