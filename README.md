@@ -31,11 +31,11 @@ Tricolor LED:
 
 Connect the longest pin (cathode) of the LED to a GND pin on the Arduino.
 
-Connect the Red pin of the LED to one end of a 100Ω resistor. Connect the other end of the resistor to Digital Pin 10.
+Connect the Red pin of the LED to one end of a 100Ω resistor. Connect the other end of the resistor to Digital Pin 12.
 
 Connect the Green pin of the LED to one end of a 100Ω resistor. Connect the other end of the resistor to Digital Pin 11.
 
-Connect the Blue pin of the LED to one end of a 100Ω resistor. Connect the other end of the resistor to Digital Pin 12.
+Connect the Blue pin of the LED to one end of a 100Ω resistor. Connect the other end of the resistor to Digital Pin 10.
 
 Push Button:
 
@@ -56,9 +56,7 @@ Sets the button pin (4) as INPUT.
 The void loop() function:
 The entire action is wrapped in an if (digitalRead(4) == HIGH) statement. This means the code inside the curly braces will only run when the button is actively being pressed.
 
-If the button is pressed, the Arduino quickly blinks pin 10 (red), then pin 11 (green), and finally pin 12 (blue).
-
-The loop() function repeats this check. As long as you hold the button down, the if condition remains true, and the R-G-B blinking sequence will repeat continuously. When you release the button, the condition becomes false, and the LEDs turn off.
+If the button is pressed, the Arduino quickly blinks pin 10 (blue), then pin 11 (green), and finally pin 12 (red) for each press.
 
 4. Compile and Test
 Connect your Arduino to your computer via USB.
@@ -69,6 +67,6 @@ Click the Verify button to compile the code.
 
 Click the Upload button to send the program to your Arduino.
 
-Press the push button. The LED should begin blinking cycle of red, green, and blue with each press
+Press the push button. The LED should begin blinking cycle of blue, green, and red with each press
 
 Release the button. The blinking should stop immediately.
