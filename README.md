@@ -2,9 +2,9 @@
 Arduino with Tricolor LED and Push button Outline:
 
 Tricolor LED - Common Cathode Tricolor LED
-Other external devices that are required for this experiment
 
-Resistor,Breadboard,Jumper Wires and Push Button
+
+Other external devices that are required for this experiment:Resistor,Breadboard,Jumper Wires and Push Button
 
 WorkFlow:
 Understand the connection circuit details
